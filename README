@@ -1,0 +1,13 @@
+
+The goal of this script is to perform shodan query on a irc channel.
+
+I created it with Debian Wheezy
+
+Necessary packets are :
+
+- Python version is 2.7 : sudo apt-get install python.
+- Pip (Download and install it with instructions at https://pip.pypa.io/en/latest/installing.html).
+- Shodan : sudo pip install shodan (docs at https://shodan.readthedocs.org/en/latest/).
+- Irc library for python : sudo apt-get install python-irclib.
+
+Launch the script with : python shodanbot.py in the good folder.
